@@ -9,6 +9,8 @@ addons:
     - libsfml-dev
     - libx11-xcb-dev
     - libx11-xcb1
+    - libxcb-image0-dev
+    - libxcb-image0
     
 before_script: chmod +x build.sh
 

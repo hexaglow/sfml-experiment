@@ -1,4 +1,4 @@
-if [ ! -d "bld" ]
+if [ ! -d "bld" ]; then
 	mkdir "bld"
 fi
 cd bld

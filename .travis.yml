@@ -3,6 +3,11 @@ language: cpp
 compiler:
   - gcc
 
+addons:
+  apt:
+    packages:
+    - libsfml-dev
+    
 before_script: chmod +x build.sh
 
 script: ./build.sh

@@ -7,7 +7,8 @@ addons:
   apt:
     packages:
     - libsfml-dev
-    - libx11
+    - libx11-xcb-dev
+    - libx11-xcb1
     
 before_script: chmod +x build.sh
 
